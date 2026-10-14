@@ -1,0 +1,9 @@
+{
+  "appId": "com.flamerunner.game",
+  "appName": "Flame Runner",
+  "webDir": "www",
+  "backgroundColor": "#0a0605",
+  "server": {
+    "androidScheme": "https"
+  }
+}

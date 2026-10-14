@@ -1,0 +1,19 @@
+{
+  "name": "flame-runner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Flame Runner - Android APK projesi (Capacitor)",
+  "scripts": {
+    "fonts": "node scripts/fetch-fonts.mjs",
+    "icons": "capacitor-assets generate --android",
+    "sync": "cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/core": "^7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^7.0.0"
+  }
+}
